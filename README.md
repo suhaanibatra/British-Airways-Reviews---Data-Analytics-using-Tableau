@@ -13,5 +13,5 @@ This repository contains files related to a British Airways Reviews Dashboard. T
 3. Countries Dataset: The dataset (Countries.csv) is used to create a mapping for countries to continent. 
 
 
-![BA Reviews Dashboard]((https://github.com/suhaanibatra/British-Airways-Reviews---Data-Analytics-using-Tableau/blob/main/dashboard_image.png))
+![BA Reviews Dashboard](https://github.com/suhaanibatra/British-Airways-Reviews---Data-Analytics-using-Tableau/blob/main/dashboard_image.png?raw=true)
 
