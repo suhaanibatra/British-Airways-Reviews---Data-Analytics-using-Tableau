@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20243.24.1010.1014                               -->
-<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='mac' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <AccessibleZoneTabOrder />
     <AnimationOnByDefault />
@@ -23,6 +23,7 @@
     <WorksheetBackgroundTransparency />
     <ZoneBackgroundTransparency />
   </document-format-change-manifest>
+  <repository-location id='BritishAirwaysReviews_17302752119850' path='/workbooks' revision='1.0' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -47,10 +48,10 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='ba_reviews' name='textscan.1ni0uru19983v112jpnyn0ftxgpg'>
-            <connection class='textscan' directory='/Users/suhaanibatra/Desktop/data_analytics/British Airways Reviews' filename='ba_reviews.csv' password='' server='' />
+            <connection class='textscan' directory='/Users/suhaanibatra/Desktop/data_analytics/British Airways Reviews' filename='ba_reviews.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
           <named-connection caption='Countries' name='textscan.0jq5zdl0l298kh1aa83ar0eljjgp'>
-            <connection class='textscan' directory='/Users/suhaanibatra/Desktop/data_analytics/British Airways Reviews' filename='Countries.csv' password='' server='' />
+            <connection class='textscan' directory='/Users/suhaanibatra/Desktop/data_analytics/British Airways Reviews' filename='Countries.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <relation type='collection'>
@@ -2640,8 +2641,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='17' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97714' id='16' param='vert' type-v2='layout-flow' w='98666' x='667' y='1143'>
+            <zone h='100000' id='21' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97714' id='20' param='vert' type-v2='layout-flow' w='98666' x='667' y='1143'>
                 <zone forceUpdate='true' h='14286' id='3' type-v2='text' w='16667' x='0' y='0'>
                   <formatted-text>
                     <run bold='true' fontcolor='#ffffff' fontsize='18'>British Airways Reviews</run>
@@ -2843,7 +2844,7 @@
       </cards>
       <simple-id uuid='{D0C9C77D-8B1D-4C73-8AFC-4009CEF0ACE2}' />
     </window>
-    <window class='worksheet' maximized='true' name='Aircraft'>
+    <window class='worksheet' name='Aircraft'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2866,7 +2867,7 @@
       </cards>
       <simple-id uuid='{273707B6-FFA1-435E-ADE7-0DF4340EFB12}' />
     </window>
-    <window class='dashboard' name='Dashboard 1'>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
       <viewpoints>
         <viewpoint name='Aircraft'>
           <zoom type='entire-view' />
